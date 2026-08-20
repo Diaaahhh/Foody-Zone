@@ -1,18 +1,14 @@
 import React from "react";
-import styled from "styled-components";
+import "./App.css"; // Assuming you have a corresponding CSS file
+import Body from "../src/Components/Body/Body.jsx";
+import Navbar from "../src/Components/Navbar/Navbar.jsx";
 function App() {
   return (
-    <container>vbbjjjjjjjjjjjjjjjjjjjjjjjjnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooojjjjjjjjjjjjj
-      <TopContainer>
-        <div className="logo"></div>
-        <div className="search"></div>
-      </TopContainer>
-    </container>
+    <div>
+      <Navbar />
+      <Body />
+    </div>
   );
 }
 
 export default App;
-
-const container = styled.div`
-bg`;
-const TopContainer = styled.section``;

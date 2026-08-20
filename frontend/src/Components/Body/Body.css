@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backgrounds{
+    background-color: aqua;
+    height: calc(100vh - 167px);
+    background-image: url("../../assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+}
