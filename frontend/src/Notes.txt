@@ -6,6 +6,8 @@ height: calc(100vh - 266px);
 import bg from "./assets/bg.jpg";
 background-image: url(${bg}); //use "background-image" in css for bg instead of <img src=''>
 background-size: cover //for background instead of object-fit
+background-position: center;
 
 := pseudo class
 ::= pseudo elememt
+

@@ -6,8 +6,20 @@
 .backgrounds{
     background-color: aqua;
     height: calc(100vh - 167px);
+    position: relative;
     background-image: url("../../assets/bg.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 0.2;
+}
+.backgrounds::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.items{
+    background-color: chartreuse;
 }
